@@ -1,0 +1,76 @@
+.header {
+  height: 100px;
+}
+
+.container {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 28px;
+}
+
+.menu {
+  position: absolute;
+  top: 39px;
+  left: 165px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-left: 51px;
+}
+
+.menu__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.menu__item:hover {
+  color: #DA0100;
+}
+
+.contacts {
+  position: absolute;
+  top: 29px;
+  right: 0;
+  text-align: right;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  line-height: 1.15em;
+}
+
+.contacts__dropdown-title {
+  color: #98A4A8;
+  font-size: 13px;
+  line-height: 1.2em;
+}
+
+.contacts__dropdown-title:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero__content {
+  width: 520px;
+  margin-top: 96px;
+}
+
+.hero__title {
+  font-size: 72px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 27px;
+}
+
+.hero__content .btn {
+  margin-top: 31px;
+}
