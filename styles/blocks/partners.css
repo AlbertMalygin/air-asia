@@ -15,23 +15,26 @@
 
 .partners__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 57px;
+}
+
+.partners__item {
+  display: flex;
+  padding: 33px 0;
+  margin-right: 30px;
+}
+
+.partners__item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .partners__img {
   filter: grayscale(100%);
-  cursor: pointer;
 }
 
 .partners__img:hover {
   filter: none;
-}
-
-.partners__list--first-row {
-  margin-top: 90px;
-}
-
-.partners__list--second-row {
-  margin-top: 65px;
 }
