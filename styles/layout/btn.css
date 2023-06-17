@@ -1,0 +1,33 @@
+.btn {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 35px;
+}
+
+.btn--big {
+  width: 168px;
+  padding: 19px 0;
+}
+
+.btn--small {
+  width: 135px;
+  padding: 18px 0;
+}
+
+.btn--red {
+  background: #F5170E;
+}
+
+.btn--white {
+  background: #FFF;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.btn--white:hover {
+  background: #F5170E;
+  color: #FFF;
+}

@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  text-align: center;
+  margin: 52px auto 0;
+}
+
+.pagination__list {
+  display: flex;
+}
+
+.pagination__link {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+}
+
+.pagination__link.active {
+  background: #FFF;
+  color: #F5170E;
+}
+
+.pagination__link:hover {
+  color: #F5170E;
+}
