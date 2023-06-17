@@ -5,26 +5,20 @@
 @import url('./blocks/header.css');
 @import url('./blocks/nav.css');
 @import url('./blocks/contacts.css');
-@import url('./blocks/offers.css');
-@import url('./blocks/news.css');
+@import url('./blocks/trips.css');
 @import url('./blocks/pagination.css');
-@import url('./blocks/about.css');
+@import url('./blocks/partners.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/socials.css');
 
 body {
-  background-image: url('../img/1.png'), url('../img/2.png');
-  background-repeat: no-repeat, no-repeat;
-  background-position: top, bottom;
-  background-color: #001821;
+  background: #F2F2F2;
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 16px;
   color: #FFF;
 }
 
 .logo {
-  display: flex;
-  width: 86px;
-  height: 36px;
+  width: 98px;
+  height: 42px;
 }
-

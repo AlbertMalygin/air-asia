@@ -1,0 +1,37 @@
+.partners {
+  margin-top: 84px;
+}
+
+.partners .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners__title {
+  color: #1A1B1E;
+  font-size: 48px;
+  margin-top: 93px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__img {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.partners__img:hover {
+  filter: none;
+}
+
+.partners__list--first-row {
+  margin-top: 90px;
+}
+
+.partners__list--second-row {
+  margin-top: 65px;
+}

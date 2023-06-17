@@ -1,0 +1,26 @@
+.menu__list {
+  display: flex;
+  width: 264px;
+  justify-content: space-between;
+  margin-left: 78px;
+  padding: 14px 0;
+}
+
+.menu__item {
+  font-size: 14px;
+
+}
+
+.menu__item:hover {
+  color: #DA0100;
+}
+
+.wrapper--secondary-page .menu__list {
+  margin-left: 65px;
+  padding: 16px 0;
+}
+
+.footer--secondary-page .menu__list {
+  margin-left: 65px;
+  padding: 16px 0;
+}
