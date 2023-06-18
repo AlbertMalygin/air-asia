@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  width: 86px;
+  height: 36px;
+}
+
+.wrapper--secondary-page .logo, .footer--secondary-page .logo{
+  width: 98px;
+  height: 42px;
+}

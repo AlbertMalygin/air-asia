@@ -1,0 +1,86 @@
+.wrapper--secondary-page .hero {
+  background: url('../../img/secondary-page-header.png') center center / cover no-repeat;
+}
+
+.header .container {
+  justify-content: space-between;
+  padding: 29px 0;
+}
+
+.header__col {
+  display: flex;
+}
+
+.hero__content {
+  margin-top: 93px;
+  width: 520px;
+}
+
+.hero__content--page-services {
+  margin-top: 62px;
+}
+
+.hero__content--page-reviews{
+  margin-top: 51px;
+}
+
+.hero__title {
+  font-size: 72px;
+  line-height: 1.38em;
+}
+
+.hero__content--page-reviews .hero__title {
+  margin-left: 5px;
+}
+
+.hero__subtitle {
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero__content .btn {
+  margin-top: 34px;
+}
+
+.breadcrumbs {
+  margin-top: 100px;
+  padding: 3px 0 23px;
+}
+
+.hero__content--page-reviews .breadcrumbs {
+  margin-top: 111px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__item {
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item::after {
+  content: '/';  
+  padding-right: 3px;
+}
+
+.breadcrumbs__item--active a{
+  font-weight: 700;
+  pointer-events: none;
+  cursor: default;
+}
+
+.breadcrumbs__item--active::after {
+  content: '';
+}
+
+.breadcrumbs__link {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.breadcrumbs__link:hover {
+  color: #FFF;
+}

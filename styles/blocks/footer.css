@@ -1,0 +1,42 @@
+footer {
+  margin-top: auto;
+}
+
+.footer-line {
+  content: '';
+  display: flex;
+  width: 1140px;
+  margin: 53px auto 0;
+  border: 1px solid #FFFFFF;
+  opacity: 0.1;
+}
+
+.footer--secondary-page {
+  background: #001821;
+}
+
+.footer__content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 48px 0;
+  color: #FFF;
+}
+
+.footer__col {
+  display: flex;
+}
+
+.footer__col--right {
+  justify-content: space-between;
+  width: 440px;
+}
+
+.contacts__desc {
+  color: #9A9A9A;
+}
+
+.footer-container .contacts__phone {
+  margin-top: 5px;
+}
+
