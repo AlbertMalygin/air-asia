@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 16px;
   width: 375px;
   text-align: center;
   margin: 52px auto 0;
@@ -16,13 +17,20 @@
   justify-content: center;
   width: 32px;
   height: 32px;
+  font-weight: 700;
   line-height: 32px;
   border-radius: 50%;
+  transition: .3s;
 }
 
 .pagination__link.active {
   background: #FFF;
   color: #F5170E;
+}
+
+.pagination__link--bg-white.active {
+  background: #F5170E;
+  color: #FFF;
 }
 
 .pagination__link:hover {

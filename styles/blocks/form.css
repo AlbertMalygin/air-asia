@@ -1,0 +1,94 @@
+.form-section {
+  background: #F4F5F5;
+  color: #1A1B1E;
+  padding-top: 67px;
+  padding-bottom: 96px;
+}
+.form-section .container {
+  flex-direction: column;
+}
+
+.form-section__title {
+  font-size: 48px;
+}
+
+.form__wrapper {
+  margin-top: 10px;
+}
+
+.form {
+  margin-top: 35px;
+}
+
+.form__row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 26px;
+}
+
+.form__input {
+  flex: 1;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 19px 30px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.form__input:focus-visible {
+  border: 1px solid #F5170E;
+  outline: none;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input--textarea {
+  padding-top: 25px;
+  height: 235px;
+}
+
+.form__controls {
+  display: flex;
+  align-items: baseline;
+  column-gap: 50px;
+  margin-top: 21px;
+}
+
+.controls__title {
+  font-size: 18px;
+  min-width: 365px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 8px;
+  row-gap: 9px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.controls__elem .tag {
+  padding: 12px 20px;
+}
+
+.controls__checkbox:checked ~ .tag {
+  background: #B9EAE4;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 16px;
+  margin-top: 30px;
+}

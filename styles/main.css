@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url('./layout/normalize.css');
 @import url('./layout/base.css');
-@import url('./layout/btn.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/tag.css');
+@import url('./blocks/dropdown.css');
+@import url('./blocks/greetings.css');
 @import url('./blocks/header.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/nav.css');
 @import url('./blocks/contacts.css');
+@import url('./blocks/breadcrumbs.css');
 @import url('./blocks/offers.css');
 @import url('./blocks/news.css');
 @import url('./blocks/pagination.css');
 @import url('./blocks/about.css');
 @import url('./blocks/trips.css');  /*services page styles*/
 @import url('./blocks/partners.css'); /*services page styles*/
+@import url('./blocks/reviews.css'); /*reviews page styles*/
+@import url('./blocks/advertising.css'); /*reviews page styles*/
+@import url('./blocks/form.css'); /*reviews page styles*/
 @import url('./blocks/footer.css');
 @import url('./blocks/socials.css');
-
-
-.wrapper {
-  min-height: 100%;
-}
-
 
 .wrapper--main-page {
   background-image: url('../img/1.png'), url('../img/2.png');
@@ -32,11 +33,18 @@
 }
 
 .wrapper--secondary-page {
-  background: #F2F2F2;
+  background: none;
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 16px;
   color: #FFF;
 }
 
 
-
+.wrapper--greetings-page {
+  background: url('../img/greetings/greetings-bg.png') center center / cover no-repeat;
+  font-family: 'Open Sans', Helvetica, sans-serif;  
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

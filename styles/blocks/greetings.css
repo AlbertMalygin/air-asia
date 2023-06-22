@@ -1,0 +1,52 @@
+.greetings__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: bounceIn 1.2s 1s ease;
+  animation-fill-mode: forwards;
+}
+
+.greetings__log-bg {
+  display: flex;
+  width: 591px;
+  height: 248px;
+  background: url('../../img/greetings/shades.png') no-repeat;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.greetings_text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@keyframes bounceIn {
+  from {
+    opacity: 1;
+    transform: scaleX(80%) scaleY(80%);
+  }
+
+  20% {
+    transform: scaleX(180%) scaleY(180%);
+  }
+
+  40% {
+    transform: scaleX(80%) scaleY(80%);
+  }
+
+  60% {
+    transform: scaleX(130%) scaleY(130%);
+  }
+
+  80% {
+    transform: scaleX(90%) scaleY(90%);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleX(100%) scaleY(100%);
+  }
+}

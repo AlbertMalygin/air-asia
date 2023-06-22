@@ -1,0 +1,46 @@
+.breadcrumbs {
+  margin-top: 100px;
+  padding: 3px 0 23px;
+}
+
+.hero__content--page-services .breadcrumbs {
+  margin-top: 106px;
+}
+
+.hero__content--page-reviews .breadcrumbs {
+  margin-top: 122px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__item {
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item::after {
+  content: '/';  
+  padding-right: 3px;
+}
+
+.breadcrumbs__item--active a{
+  font-weight: 700;
+  pointer-events: none;
+  cursor: default;
+}
+
+.breadcrumbs__item--active::after {
+  content: '';
+}
+
+.breadcrumbs__link {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+.breadcrumbs__link:hover {
+  color: #FFF;
+}

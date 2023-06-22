@@ -1,4 +1,5 @@
 .partners {
+  background: #F4F5F5;
   margin-top: 84px;
   padding-bottom: 113px;
 }
@@ -30,6 +31,7 @@
 
 .partners__img {
   filter: grayscale(100%);
+  transition: .3s;
 }
 
 .partners__img:hover {

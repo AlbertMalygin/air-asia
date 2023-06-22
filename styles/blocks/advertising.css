@@ -1,0 +1,19 @@
+.advertising {
+  background: url('../../img/reviews/banner.png') center center / cover no-repeat;
+  margin-top: 87px;
+}
+
+.advertising__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.advertising__title {
+  font-size: 48px;
+  line-height: 1.36em;
+}
+
+.advertising__img {
+  margin-top: 22px;
+  margin-left: 28px;
+}

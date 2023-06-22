@@ -1,0 +1,110 @@
+.reviews {
+  flex-direction: column;
+  color: #1A1B1E;
+}
+
+.reviews__list {
+  column-count: 2;
+  column-gap: 27px;
+  margin-top: 80px;
+}
+
+.review {
+  display: inline-block;
+  background: #F4F5F5;
+  border-radius: 5px;
+  padding: 54px 0 35px 30px;
+  margin-top: 17px;
+}
+
+.review__author {
+  display: flex;
+}
+
+.review__author-photo {
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+}
+
+.review:nth-child(1) .review__author-photo {
+  background: url('../../img/reviews/Ivan.png') no-repeat;
+}
+
+.review:nth-child(2) .review__author-photo {
+  background: url('../../img/reviews/Liza.png') no-repeat;
+}
+
+.review:nth-child(3) .review__author-photo {
+  background: url('../../img/reviews/Kate.png') no-repeat;
+}
+
+.review:nth-child(4) .review__author-photo {
+  background: url('../../img/reviews/Anton.png') no-repeat;
+}
+
+.author__info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 22px;
+}
+
+.author__name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A1B1E;
+  display: flex;
+  align-items: baseline;
+}
+
+.author__name:after {
+  content: url('/img/reviews/vk-blue.png');
+  height: 30px;
+  width: 30px;
+  margin-left: 7px;
+}
+
+.author__link {
+  transition: .3s;
+}
+
+.author__link:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 11px;
+}
+
+.message__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.48em;
+  padding: 24px 6px 12px 5px;
+}
+
+.message__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.67em;
+  color: #818181;
+  padding: 0 30px 0 2px;
+}
+
+.message__date {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1A1B1E;
+  padding: 2px;
+  margin-top: 50px;
+}
+
+
+.reviews .pagination {
+  color: #000000;
+  margin-top: 66px;
+}
