@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  animation: bounceIn 1.2s .2s ease;
+  animation: bounceIn 1s .9s ease;
   animation-fill-mode: forwards;
 }
 
