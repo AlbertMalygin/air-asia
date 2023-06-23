@@ -75,6 +75,7 @@
 
 .review__tags {
   display: flex;
+  cursor: default;
   align-items: flex-start;
   margin-top: 11px;
 }
